@@ -7,7 +7,7 @@ For now, this works for BelongsTo. Only "BelongsToWithCreate" is available, my p
 ## Install
 
 Run this command in your nova project:
-`composer require AliAwwad/CreateRelationOnResource`
+`composer require ali-awwad/create-relation-on-resource`
 
 Usage:
 
