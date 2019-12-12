@@ -12,12 +12,12 @@ Run this command in your nova project:
 Usage:
 
 ```php
-
 use AliAwwad\CreateRelationOnResource\BelongsToWithCreate;
+
 public function fields(Request $request)
 {
     return [
-BelongsToWithCreate::make('Language')->quickCreate(),
+        BelongsToWithCreate::make('Language')->quickCreate(),
     ]
 }
 ```
