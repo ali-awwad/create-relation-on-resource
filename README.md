@@ -3,7 +3,6 @@
 For now, this works for BelongsTo. Only "BelongsToWithCreate" is available, my plan in the future is to do "BlongsToMany" one. 
 
 
-
 ## Install
 
 Run this command in your nova project:
