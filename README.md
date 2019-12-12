@@ -18,7 +18,7 @@ public function fields(Request $request)
 {
     return [
         BelongsToWithCreate::make('Language')->quickCreate(),
-    ]
+    ];
 }
 ```
 
