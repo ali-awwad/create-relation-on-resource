@@ -14,7 +14,13 @@ class BelongsToWithCreate extends BelongsTo
      */
     public $component = 'BelongsToWithCreate';
 
-    public function quickCreate($fillValues = [])
+    public function __construct($name, $attribute = null, $resource = null) {
+        parent::__construct($name, $attribute, $resource);
+
+        $this->quickCreate();
+    }
+
+    private function quickCreate($fillValues = [])
     {
         $this->withMeta(['quickCreate' => true, 'fillValues' => $fillValues]);
 
