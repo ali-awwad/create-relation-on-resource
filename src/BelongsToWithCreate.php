@@ -14,6 +14,9 @@ class BelongsToWithCreate extends BelongsTo
      */
     public $component = 'BelongsToWithCreate';
 
+    /**
+     * @inheritdoc
+     */
     public function __construct($name, $attribute = null, $resource = null) {
         parent::__construct($name, $attribute, $resource);
 
